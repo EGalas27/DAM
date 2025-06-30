@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@android:color/white">
+
+        <!-- Marca -->
+        <TextView
+            android:id="@+id/tvMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marca"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@android:color/black" />
+
+        <!-- Modelo -->
+        <TextView
+            android:id="@+id/tvModelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modelo"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="2dp" />
+
+        <!-- Problema -->
+        <TextView
+            android:id="@+id/tvProblema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Problema"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="4dp" />
+
+        <!-- Cliente -->
+        <TextView
+            android:id="@+id/tvCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cliente"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:textColor="#616161"
+            android:layout_marginTop="4dp" />
+
+        <!-- Imagen del equipo -->
+        <ImageView
+            android:id="@+id/ivEquipo"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Imagen del equipo"
+            android:background="@drawable/border_rounded_gray"
+            android:src="@drawable/ic_image" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

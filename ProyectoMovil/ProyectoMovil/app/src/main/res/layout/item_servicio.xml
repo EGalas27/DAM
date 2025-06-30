@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvFechaServicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📅 Fecha: 2025-06-18"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvEquipoServicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🖥️ Equipo: Laptop HP 14"
+            android:textColor="#444444"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvTecnicoServicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👨‍🔧 Técnico: Jholby Segura"
+            android:textColor="#444444"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/tvCategoriaServicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📌 Categoría: Mantenimiento"
+            android:textColor="#555555"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/tvDescripcionServicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📝 Descripción: Cambio de teclado"
+            android:textColor="#666666"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/tvCostoServicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💰 Costo: S/ 150.0"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/tvEstadoServicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⏳ Estado: Pendiente"
+            android:textColor="#666666"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
